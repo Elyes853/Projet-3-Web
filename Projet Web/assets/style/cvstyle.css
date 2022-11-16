@@ -1,0 +1,59 @@
+body {
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  color: #eeeeee;
+  font-family: "Times New Roman", Times, serif;
+}
+table,
+tr,
+td {
+  border: none;
+}
+
+tr,
+td {
+  padding: 10px;
+}
+
+td:nth-child(odd) {
+  background-color: #393e46;
+}
+
+td:nth-child(even) {
+  background-color: #585858;
+}
+
+div {
+  border: 2px solid #00adb5;
+  padding: 30px;
+}
+
+/*scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00adb5;
+}
+
+.topic {
+  height: 100%;
+}
